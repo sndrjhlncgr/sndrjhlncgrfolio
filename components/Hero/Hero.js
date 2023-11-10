@@ -82,7 +82,7 @@ const Hero = () => {
         <p>
           <span
             ref={typedEl}
-            className="seq text-3xl text-gray-light-3 font-mono leading-relaxed"
+            className="seq text-4lg text-gray-light-3 font-mono leading-relaxed"
           ></span>
         </p>
         <div className="seq">

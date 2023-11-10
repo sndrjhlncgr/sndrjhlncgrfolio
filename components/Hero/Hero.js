@@ -94,10 +94,17 @@ const Hero = () => {
           </Button>
         </div>
       </div>
-      {/* <div
+      <div
         className="absolute invisible w-5/12 top-6.5 -mr-6 lg:visible lg:right-12 2xl:right-16"
         ref={lottieRef}
-      ></div> */}
+      ></div>
+      {/* <div className="absolute invisible w-5/12 top-6.5 -mr-6 lg:visible lg:right-12 2xl:right-16">
+        <img
+            placeholder="blur"
+            src={'/man.png'}
+            layout="fill"
+        />
+        </div> */}
     </section>
   );
 };

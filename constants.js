@@ -45,10 +45,10 @@ export const MENULINKS = [
 ];
 
 export const TYPED_STRINGS = [
-  "A Full Stack Developer",
-  "A Graphic Designer",
-  "A Gamer",
-  "A Content Creator",
+  "$ A Full Stack Developer",
+  "$ A Graphic Designer",
+  "$ A Gamer",
+  "$ A Content Creator",
 ];
 
 export const SOCIAL_LINKS = [
@@ -57,13 +57,33 @@ export const SOCIAL_LINKS = [
     url: "mailto: sandrojhulianocagara@gmail.com",
   },
   {
-    name: "linkedin",
-    url: "https://www.linkedin.com/in/sandrocagara/",
-  },
-  {
     name: "github",
     url: "https://github.com/sndrjhlncgr",
   },
+  {
+    name: "medium",
+    url: "https://medium.com/sandrocagara",
+  },
+  {
+    name: "stackoverflow",
+    url: "https://stackoverflow.com/users/13614769/sandro-jhuliano-cagara",
+  },
+  {
+    name: "behance",
+    url: "https://behance.net/sandrocagaraofficial",
+  },
+  {
+    name: "linkedin",
+    url: "https://linkedin.com/in/sandrocagara",
+  },
+  {
+    name: "dev",
+    url: "https://dev.to/sandrocagara",
+  },
+  {
+    name: "codesandbox",
+    url: "https://codesandbox.io/u/sandrocagara",
+  }
 ];
 
 export const SKILLS = {
@@ -106,25 +126,29 @@ export const PROJECTS = [
     },
     gradient: ["#ffba08", "#faa307"],
     url: "https://shubh73-airbnb.vercel.app/",
-    tech: ["codeigniter", "jquery", "sql-server", "bootstrap5","docker"],
+    tech: ["codeigniter", "jquery", "sql-server", "bootstrap5", "docker"],
   },
   {
-    name: "HELP",
+    name: "Love, Skin",
     image: "/projects/airbnb.webp",
     blurImage: "/projects/blur/airbnb-blur.webp",
-    description: "Hospital Emergency Room Link Program",
-    gradient: ["#ffba08", "#faa307"],
+    description: {
+      title: 'Love, Skin (Aesthetic clinic corp)'
+    },
+    gradient: ["#e29578", "#ffddd2"],
     url: "https://shubh73-airbnb.vercel.app/",
-    tech: ["codeigniter", "jquery", "sql-server", "bootstrap5","docker"],
+    tech: ["laravel", "react", "tanstack-query", "materialui", "redux", "mysql"],
   },
-   {
-    name: "HELP",
+  {
+    name: "Spotify Status",
     image: "/projects/airbnb.webp",
     blurImage: "/projects/blur/airbnb-blur.webp",
-    description: "Hospital Emergency Room Link Program",
-    gradient: ["#ffba08", "#faa307"],
+    description: {
+      title: 'Spotify Status (readme)'
+    },
+    gradient: ["#16e58b", "#5ef550"],
     url: "https://shubh73-airbnb.vercel.app/",
-    tech: ["codeigniter", "jquery", "sql-server", "bootstrap5","docker"],
+    tech: ["python", "flask", "vercel", "spotify"],
   }
 ];
 

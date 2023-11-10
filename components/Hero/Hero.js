@@ -1,11 +1,10 @@
 import { useState, useEffect, useRef } from "react";
 import Typed from "typed.js";
 import { gsap, Linear } from "gsap";
-import { MENULINKS, TYPED_STRINGS } from "../../constants";
+import { MENULINKS, TYPED_STRINGS, INTRO } from "../../constants";
 import styles from "./Hero.module.scss";
 import Button from "../Button/Button";
 import Profiles from "../Profiles/Profiles";
-// import lottie from "lottie-web";
 
 const Hero = () => {
   const [lottie, setLottie] = useState();
@@ -37,16 +36,6 @@ const Hero = () => {
 
     return () => typed.destroy();
   }, [typedEl, targetSection]);
-
-  // useEffect(() => {
-  //   lottie.loadAnimation({
-  //     container: lottieRef.current,
-  //     renderer: "svg",
-  //     loop: true,
-  //     autoplay: true,
-  //     animationData: require("../../public/lottie/lottie.json"),
-  //   });
-  // }, []);
 
   useEffect(() => {
     import("lottie-web").then((Lottie) => setLottie(Lottie.default));
@@ -86,9 +75,9 @@ const Hero = () => {
         >
           Hi, my name is
         </h5>
-        <h1 className={`${styles.heroName} text-white text-6xl font-semibold`}>
-          <span className={`relative ${styles.emphasize} seq`}>Shubh</span>
-          <span className="seq"> Porwal</span>
+        <h1 className={`${styles.heroName} text-white text-6xl font-semibold -mb-5`}>
+          <span className={`relative ${styles.emphasize} seq`}>{INTRO.firstname}</span>
+          <span className="seq"> {INTRO.lastname}</span>
         </h1>
         <p>
           <span
@@ -99,16 +88,16 @@ const Hero = () => {
         <div className="seq">
           <Profiles />
         </div>
-        <div className="seq pt-4">
+        <div className="seq pt-0">
           <Button href={`#${MENULINKS[4].ref}`} classes="link" type="primary">
             Let&apos;s Talk
           </Button>
         </div>
       </div>
-      <div
-        className="absolute invisible w-4/12 bottom-1.5 lg:visible lg:right-12 2xl:right-16"
+      {/* <div
+        className="absolute invisible w-5/12 top-6.5 -mr-6 lg:visible lg:right-12 2xl:right-16"
         ref={lottieRef}
-      ></div>
+      ></div> */}
     </section>
   );
 };

@@ -2,7 +2,6 @@ import { useEffect, useRef } from "react";
 import gsap, { Power1, Circ } from "gsap";
 import { useRouter } from "next/router";
 import Button from "@/components/Button/Button";
-import Cursor from "@/components/Cursor/Cursor";
 
 const Custom404 = () => {
   const router = useRouter();
@@ -53,7 +52,7 @@ const Custom404 = () => {
 
   return (
     <div className="flex justify-start items-center h-screen w-screen">
-      <div className="container lg:ml-40 cursor-auto">
+      <div className="container lg:ml-40 ">
         <svg className="milk-404" viewBox="0 0 600 600">
           <g id="milk-spill" fill="#fff">
             <path

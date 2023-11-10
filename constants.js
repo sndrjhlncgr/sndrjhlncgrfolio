@@ -1,24 +1,24 @@
 export const METADATA = {
-  author: "Shubh Porwal",
-  title: "Portfolio | Shubh Porwal",
+  author: "Sandro Cagara",
+  title: "Sandro Cagara | Full Stack Developer",
   description:
-    "Shubh Porwal is a Frontend Developer from Kuwait, interested in crafting beautiful and functional applications.",
-  siteUrl: "https://www.shubhporwal.me/",
-  twitterHandle: "@shubh731",
+    "Sandro Cagara is a Senior Full Stack Developer from philippines, interested in crafting beautiful and functional applications.",
+  siteUrl: "https://www.sandrocagara.me/",
   keywords: [
-    "Shubh Porwal",
-    "Frontend Developer",
+    "Sandro Cagara",
+    "Full Stack Developer",
     "Web Developer",
-    "React Native Developer",
+    "Laravel Developer",
     "Software Developer",
     "Software Engineer",
     "Portfolio",
-    "Devfolio",
-    "Folio",
   ].join(", "),
-  image:
-    "https://res.cloudinary.com/dywdhyojt/image/upload/v1690572126/preview.png",
   language: "English",
+};
+
+export const INTRO = {
+  firstname: "Sandro",
+  lastname: "Cagara",
 };
 
 export const MENULINKS = [
@@ -45,158 +45,129 @@ export const MENULINKS = [
 ];
 
 export const TYPED_STRINGS = [
-  "A pragmatic Frontend Developer",
-  "I build things for the web",
-  "I create aesthetic and modern apps",
+  "A Full Stack Developer",
+  "A Graphic Designer",
+  "A Gamer",
+  "A Content Creator",
 ];
 
 export const SOCIAL_LINKS = [
   {
     name: "mail",
-    url: "mailto: shubhporwal73@gmail.com",
+    url: "mailto: sandrojhulianocagara@gmail.com",
   },
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/in/shubhporwal/",
+    url: "https://www.linkedin.com/in/sandrocagara/",
   },
   {
     name: "github",
-    url: "https://github.com/shubh73",
-  },
-  {
-    name: "instagram",
-    url: "https://www.instagram.com/shubhii73/",
-  },
-  {
-    name: "twitter",
-    url: "https://twitter.com/shubh731",
+    url: "https://github.com/sndrjhlncgr",
   },
 ];
 
 export const SKILLS = {
   languagesAndTools: [
+    "php",
     "html",
     "css",
     "javascript",
     "typescript",
     "sass",
-    // "cpp",
-    // "java",
-    // "python",
+    "python",
     "nodejs",
     "webpack",
     "vite",
-    "firebase",
-    // "moralis",
-    // "stripe",
-    "figma",
     "tanstack-query",
   ],
   librariesAndFrameworks: [
+    "laravel",
+    "codeigniter",
+    "materialui",
     "react",
     "redux",
+    "jquery",
     "nextjs",
     "tailwindcss",
-    "styledcomponents",
+    "vue",
     "antdesign",
-    "chakra-ui",
   ],
-  databases: ["mysql", "mongodb"],
-  other: ["git", "sanity-io"],
+  databases: ["mysql", "mongodb", "sql-server"],
+  other: ["git", "gitlab", "jenkins"],
 };
 
 export const PROJECTS = [
-  // {
-  //   name: "Shotime",
-  //   image: "",
-  //   blurImage: "",
-  //   description:
-  //     "Developed with complete E-commerce functionality and User Authentication 🛍️",
-  //   gradient: ["#FFCF1B", "#FF881B"],
-  //   url: "https://shubh73-shotime.vercel.app/",
-  //   tech: ["react", "tailwindcss", "redux", "mongodb", "stripe"],
-  // },
   {
-    name: "Airbnb",
+    name: "HELP",
     image: "/projects/airbnb.webp",
     blurImage: "/projects/blur/airbnb-blur.webp",
-    description: "Airbnb UI clone using NextJS + Tailwind CSS 🛏️",
-    gradient: ["#F14658", "#DC2537"],
+    description: {
+      title: "Hospital Emergency Room Link Program",
+    },
+    gradient: ["#ffba08", "#faa307"],
     url: "https://shubh73-airbnb.vercel.app/",
-    tech: ["react", "nextjs", "tailwindcss", "mapbox"],
+    tech: ["codeigniter", "jquery", "sql-server", "bootstrap5","docker"],
   },
   {
-    name: "Medium",
-    image: "/projects/medium.webp",
-    blurImage: "/projects/blur/medium-blur.webp",
-    description: "Medium UI clone using NextJS + Tailwind CSS ✍🏻",
-    gradient: ["#FFA62E", "#EA4D2C"],
-    url: "https://shubh73-medium.vercel.app/",
-    tech: ["typescript", "react", "nextjs", "tailwindcss", "sanity.io"],
-  },
-  {
-    name: "Inshorts",
-    image: "/projects/inshorts.webp",
+    name: "HELP",
+    image: "/projects/airbnb.webp",
     blurImage: "/projects/blur/airbnb-blur.webp",
-    description:
-      "Conversational Voice Controlled React News Application using Alan AI 🎙",
-    gradient: ["#000066", "#6699FF"],
-    url: "https://shubh73-inshorts.netlify.app/",
-    tech: ["react", "chakra-ui", "alan"],
+    description: "Hospital Emergency Room Link Program",
+    gradient: ["#ffba08", "#faa307"],
+    url: "https://shubh73-airbnb.vercel.app/",
+    tech: ["codeigniter", "jquery", "sql-server", "bootstrap5","docker"],
   },
-  {
-    name: "Tesla",
-    image: "/projects/tesla.webp",
-    blurImage: "/projects/blur/tesla-blur.webp",
-    description: "A Tesla React Native App 🏎️",
-    gradient: ["#142D46", "#2E4964"],
-    url: "https://github.com/shubh73/tesla",
-    tech: ["react"],
-  },
+   {
+    name: "HELP",
+    image: "/projects/airbnb.webp",
+    blurImage: "/projects/blur/airbnb-blur.webp",
+    description: "Hospital Emergency Room Link Program",
+    gradient: ["#ffba08", "#faa307"],
+    url: "https://shubh73-airbnb.vercel.app/",
+    tech: ["codeigniter", "jquery", "sql-server", "bootstrap5","docker"],
+  }
 ];
 
 export const WORK = [
   {
     id: 1,
-    company: "Dukaan",
-    title: "Frontend Developer",
-    location: "Bangalore, Karnataka",
-    range: "December - Current",
+    company: "National Center for Mental Health",
+    title: "Full Stack Developer",
+    location: "Mandaluyong, Philippines",
+    range: "???",
     responsibilities: [
-      "Led creation of a captivating cross-platform e-commerce solution.",
-      "Enhanced UX with gamification and personalized push notifications ensuring an ever-improving shopping journey.",
-      "The app boasts a DAU base of 13k and an extensive MAU count of 170k.",
+      "Develop front end website architecture and features to enhance the user experience.",
+      "Worked on the company (ER, OPD and IPD) information system including login authentication and user interface implementations and etc.",
+      "Responsible for writing clean code and driving technical design.",
+      "Supervise and guide entry-level developers; responsible for reviewing their code.",
+      "Assigned to mentor some of the junior developers in the team.",
+      "Participated in interviewing and recruiting candidates.",
+      "In charge of releasing and deploying builds to development, staging and production environment",
+      "Approve merge/pull request and set up task breakdown for junior developers during the development",
+      "Ensures proper documentation and reports in all stages of the development cycle"
     ],
-    url: "https://mydukaan.io/",
+    url: "https://sandrocagara.io/",
     video: "/work/dukaan.mp4",
   },
   {
-    id: 2,
-    company: "Aviate",
-    title: "Frontend Developer Intern",
-    location: "Goa",
-    range: "May - October 2022",
+    id: 1,
+    company: "National Center for Mental Health",
+    title: "Full Stack Developer",
+    location: "Mandaluyong, Philippines",
+    range: "???",
     responsibilities: [
-      "Built their flagship product Q-Rate, a voice-based applicant screening platform.",
-      "Developed pixel-perfect responsive web applications achieving daily traffic of 1000-2000 users.",
-      "Successfully rolled out an error-logging and bug reporting system that cut user-reported bugs by 30%.",
+      "Develop front end website architecture and features to enhance the user experience.",
+      "Worked on the company (ER, OPD and IPD) information system including login authentication and user interface implementations and etc.",
+      "Responsible for writing clean code and driving technical design.",
+      "Supervise and guide entry-level developers; responsible for reviewing their code.",
+      "Assigned to mentor some of the junior developers in the team.",
+      "Participated in interviewing and recruiting candidates.",
+      "In charge of releasing and deploying builds to development, staging and production environment",
+      "Approve merge/pull request and set up task breakdown for junior developers during the development",
+      "Ensures proper documentation and reports in all stages of the development cycle"
     ],
-    url: "https://www.aviate.jobs/",
-    video: "/work/aviate.mp4",
-  },
-  {
-    id: 3,
-    company: "Spacenos",
-    title: "Web Developer Intern",
-    location: "Bangalore, Karnataka",
-    range: "September - December 2021",
-    responsibilities: [
-      "Led the Full Stack revamp on the Admin Portal.",
-      "Developed app integration with REST APIs, Google Maps, User Auth, Stripe and other libraries.",
-      "Implemented CRUD features for all the services and providers.",
-    ],
-    url: "https://spacenos.com/",
-    video: "/work/spacenos.mp4",
+    url: "https://sandrocagara.io/",
+    video: "/work/dukaan.mp4",
   },
 ];
 

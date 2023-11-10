@@ -82,7 +82,7 @@ const ProjectTile = ({ project, classes, isDesktop }) => {
             {project.tech.map((el, i) => (
               <img
                 className={`${i % 2 === 0 && "ml-16"} mb-4`}
-                src={`/projects/tech/${el}.svg`}
+                src={`/skills/${el}.svg`}
                 alt={el}
                 height={45}
                 width={45}
@@ -92,11 +92,14 @@ const ProjectTile = ({ project, classes, isDesktop }) => {
           </div>
         </div>
         <h2
-          className="text-lg z-10 tracking-wide font-medium text-white transform-gpu"
+          className="text-xl z-10 tracking-wide font-medium text-white transform-gpu"
           style={{ transform: "translateZ(0.8rem)" }}
         >
-          {description}
+          {description.title}
+          <br/>
+    
         </h2>
+      
       </div>
     </a>
   );

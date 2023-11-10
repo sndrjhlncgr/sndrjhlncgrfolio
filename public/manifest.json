@@ -4,9 +4,9 @@
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
-  "name": "Portfolio | Shubh Porwal",
-  "short_name": "Shubh Porwal",
-  "description": "Shubh Porwal's Portfolio Website.",
+  "name": "Sandro Cagara | Full Stack Developer",
+  "short_name": "Sandro Cagara",
+  "description": "Sandro Cagara Portfolio Website.",
   "icons": [
     {
       "src": "/icon-192x192.png",

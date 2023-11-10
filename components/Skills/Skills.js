@@ -27,7 +27,7 @@ const Skills = () => {
 
   return (
     <section
-      className="w-full relative select-none mt-44"
+      className="w-full relative select-none -mt-10"
       id={MENULINKS[1].ref}
       ref={targetSection}
     >
@@ -48,7 +48,7 @@ const Skills = () => {
             <h1 className="text-6xl mt-2 font-medium text-gradient w-fit seq">
               My Skills
             </h1>
-            <h2 className="text-[1.65rem] font-medium md:max-w-lg w-full mt-2 seq">
+            <h2 className="text-[1.1rem] font-small font-mono leading-relaxed text-gray-light-3 md:max-w-lg w-full mt-0 seq">
               I like to take responsibility to craft aesthetic user experience
               using modern frontend architecture.{" "}
             </h2>
@@ -60,6 +60,7 @@ const Skills = () => {
             <div className="flex flex-wrap gap-6 transform-gpu seq">
               {SKILLS.languagesAndTools.map((skill) => (
                 <Image
+                  title={skill}
                   key={skill}
                   src={`/skills/${skill}.svg`}
                   alt={skill}
@@ -76,6 +77,7 @@ const Skills = () => {
             <div className="flex flex-wrap gap-6 transform-gpu seq">
               {SKILLS.librariesAndFrameworks.map((skill) => (
                 <Image
+                  title={skill}
                   key={skill}
                   src={`/skills/${skill}.svg`}
                   alt={skill}
@@ -93,6 +95,7 @@ const Skills = () => {
               <div className="flex flex-wrap gap-6 transform-gpu seq">
                 {SKILLS.databases.map((skill) => (
                   <Image
+                    title={skill}
                     key={skill}
                     src={`/skills/${skill}.svg`}
                     alt={skill}
@@ -109,6 +112,7 @@ const Skills = () => {
               <div className="flex flex-wrap gap-6 transform-gpu seq">
                 {SKILLS.other.map((skill) => (
                   <Image
+                    title={skill}
                     key={skill}
                     src={`/skills/${skill}.svg`}
                     alt={skill}

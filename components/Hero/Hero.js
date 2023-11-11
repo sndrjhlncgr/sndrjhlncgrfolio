@@ -15,10 +15,10 @@ const Hero = () => {
 
   const options = {
     strings: TYPED_STRINGS,
-    typeSpeed: 50,
+    typeSpeed: 40,
     startDelay: 1500,
-    backSpeed: 50,
-    backDelay: 8000,
+    backSpeed: 40,
+    backDelay: 2000,
     loop: true,
   };
 
@@ -58,7 +58,7 @@ const Hero = () => {
   return (
     <section
       ref={targetSection}
-      className="w-full flex md:items-center py-8 2xl:container mx-auto xl:px-20 md:px-12 px-4 min-h-screen relative mb-24"
+      className="w-full flex md:items-center py-8 2xl:container mx-auto xl:px-20 md:px-12 px-4 min-h-screen relative"
       id={MENULINKS[0].ref}
       style={{ opacity: 0 }}
     >

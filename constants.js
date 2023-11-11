@@ -122,7 +122,8 @@ export const SKILLS = {
   other: [
     "git", 
     "gitlab", 
-    "jenkins"
+    "jenkins",
+    "docker"
   ]
 };
 

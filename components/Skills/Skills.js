@@ -27,7 +27,7 @@ const Skills = () => {
 
   return (
     <section
-      className="w-full relative select-none -mt-10"
+      className="w-full relative select-none -mt-10 mb-20"
       id={MENULINKS[1].ref}
       ref={targetSection}
     >
@@ -63,8 +63,8 @@ const Skills = () => {
                   key={skill}
                   src={`/skills/${skill}.svg`}
                   alt={skill}
-                  width={50}
-                  height={50}
+                  width={30}
+                  height={30}
                 />
               ))}
             </div>
@@ -80,8 +80,8 @@ const Skills = () => {
                   key={skill}
                   src={`/skills/${skill}.svg`}
                   alt={skill}
-                  width={50}
-                  height={50}
+                  width={30}
+                  height={30}
                 />
               ))}
             </div>
@@ -98,8 +98,8 @@ const Skills = () => {
                     key={skill}
                     src={`/skills/${skill}.svg`}
                     alt={skill}
-                    width={50}
-                    height={50}
+                    width={30}
+                    height={30}
                   />
                 ))}
               </div>
@@ -115,8 +115,8 @@ const Skills = () => {
                     key={skill}
                     src={`/skills/${skill}.svg`}
                     alt={skill}
-                    width={50}
-                    height={50}
+                    width={30}
+                    height={30}
                   />
                 ))}
               </div>

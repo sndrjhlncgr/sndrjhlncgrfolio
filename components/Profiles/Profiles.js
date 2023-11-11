@@ -14,6 +14,7 @@ const Profiles = () => {
             rel="noreferrer"
             target="_blank"
             aria-label={name}
+            title={name}
           >
             <Icon name={name} />
           </a>

@@ -1,8 +1,7 @@
 export const METADATA = {
   author: "Sandro Cagara",
   title: "Sandro Cagara | Full Stack Developer",
-  description:
-    "Sandro Cagara is a Senior Full Stack Developer from philippines, interested in crafting beautiful and functional applications.",
+  description: "Sandro Cagara is a Senior Full Stack Developer from philippines, interested in crafting beautiful and functional applications.",
   siteUrl: "https://www.sandrocagara.me/",
   keywords: [
     "Sandro Cagara",
@@ -87,6 +86,9 @@ export const SOCIAL_LINKS = [
 ];
 
 export const SKILLS = {
+  id: 'skills',
+  title: 'My Skills',
+  description: "I like to take responsibility to craft aesthetic user experience using modern frontend architecture.",
   languagesAndTools: [
     "php",
     "html",
@@ -112,67 +114,84 @@ export const SKILLS = {
     "vue",
     "antdesign",
   ],
-  databases: ["mysql", "mongodb", "sql-server"],
-  other: ["git", "gitlab", "jenkins"],
+  databases: [
+    "mysql", 
+    "mongodb", 
+    "sql-server"
+  ],
+  other: [
+    "git", 
+    "gitlab", 
+    "jenkins"
+  ]
 };
 
-export const PROJECTS = [
-  {
-    name: "HELP",
-    image: "/projects/airbnb.webp",
-    blurImage: "/projects/blur/airbnb-blur.webp",
-    description: {
-      title: "Hospital Emergency Room Link Program",
+export const PROJECTS = {
+   id: 'projects',
+   title: 'My Projects',
+   description: "Some things I've built with love, expertise and a pinch of magical ingredients.",
+   lists: [
+    {
+      name: "HELP",
+      image: "/projects/airbnb.webp",
+      blurImage: "/projects/blur/airbnb-blur.webp",
+      description: {
+        title: "Hospital Emergency Room Link Program",
+      },
+      gradient: ["#ffba08", "#faa307"],
+      url: "https://shubh73-airbnb.vercel.app/",
+      tech: ["codeigniter", "jquery", "sql-server", "bootstrap5", "docker"],
     },
-    gradient: ["#ffba08", "#faa307"],
-    url: "https://shubh73-airbnb.vercel.app/",
-    tech: ["codeigniter", "jquery", "sql-server", "bootstrap5", "docker"],
-  },
-  {
-    name: "Love, Skin",
-    image: "/projects/airbnb.webp",
-    blurImage: "/projects/blur/airbnb-blur.webp",
-    description: {
-      title: 'Love, Skin (Aesthetic clinic corp)'
+    {
+      name: "Love, Skin",
+      image: "/projects/airbnb.webp",
+      blurImage: "/projects/blur/airbnb-blur.webp",
+      description: {
+        title: 'Love, Skin (Aesthetic clinic corp)'
+      },
+      gradient: ["#e29578", "#ffddd2"],
+      url: "https://shubh73-airbnb.vercel.app/",
+      tech: ["laravel", "react", "tanstack-query", "materialui", "redux", "mysql"],
     },
-    gradient: ["#e29578", "#ffddd2"],
-    url: "https://shubh73-airbnb.vercel.app/",
-    tech: ["laravel", "react", "tanstack-query", "materialui", "redux", "mysql"],
-  },
-  {
-    name: "Spotify Status",
-    image: "/projects/airbnb.webp",
-    blurImage: "/projects/blur/airbnb-blur.webp",
-    description: {
-      title: 'Spotify Status (readme)'
-    },
-    gradient: ["#16e58b", "#5ef550"],
-    url: "https://shubh73-airbnb.vercel.app/",
-    tech: ["python", "flask", "vercel", "spotify"],
-  }
-];
+    {
+      name: "Spotify Status",
+      image: "/projects/airbnb.webp",
+      blurImage: "/projects/blur/airbnb-blur.webp",
+      description: {
+        title: 'Spotify Status (readme)'
+      },
+      gradient: ["#16e58b", "#5ef550"],
+      url: "https://shubh73-airbnb.vercel.app/",
+      tech: ["python", "flask", "vercel", "spotify"],
+    }
+  ]
+}
 
-export const WORK = [
-  {
-    id: 1,
-    company: "National Center for Mental Health",
-    title: "Full Stack Developer",
-    location: "Mandaluyong, Philippines",
-    range: "???",
-    responsibilities: [
-      "Develop front end website architecture and features to enhance the user experience.",
-      "Worked on the company (ER, OPD and IPD) information system including login authentication and user interface implementations and etc.",
-      "Responsible for writing clean code and driving technical design.",
-      "Supervise and guide entry-level developers; responsible for reviewing their code.",
-      "Assigned to mentor some of the junior developers in the team.",
-      "Participated in interviewing and recruiting candidates.",
-      "In charge of releasing and deploying builds to development, staging and production environment",
-      "Approve merge/pull request and set up task breakdown for junior developers during the development",
-      "Ensures proper documentation and reports in all stages of the development cycle"
-    ],
-    url: "https://sandrocagara.io/",
-    video: "/work/dukaan.mp4",
-  }
-];
+export const WORK = {
+  id: 'work',
+  title: 'Experience',
+  description: "A quick recap of where I've worked.",
+  lists: [
+    {
+      id: 1,
+      company: "National Center for Mental Health",
+      title: "Full Stack Developer",
+      location: "Mandaluyong, Philippines",
+      range: "???",
+      responsibilities: [
+        "Develop front end website architecture and features to enhance the user experience.",
+        "Worked on the company (ER, OPD and IPD) information system including login authentication and user interface implementations and etc.",
+        "Responsible for writing clean code and driving technical design.",
+        "Supervise and guide entry-level developers; responsible for reviewing their code.",
+        "Assigned to mentor some of the junior developers in the team.",
+        "Participated in interviewing and recruiting candidates.",
+        "In charge of releasing and deploying builds to development, staging and production environment",
+        "Approve merge/pull request and set up task breakdown for junior developers during the development",
+        "Ensures proper documentation and reports in all stages of the development cycle"
+      ],
+      url: "https://sandrocagara.io/",
+      video: "/work/dukaan.mp4",
+    }
+  ]
+}
 
-export const GTAG = "G-5HCTL2TJ5W";

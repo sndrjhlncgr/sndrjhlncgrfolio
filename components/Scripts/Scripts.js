@@ -5,7 +5,7 @@ import { GTAG } from "../../constants";
 const Scripts = React.memo(() => {
   return (
     <>
-      <Script
+      {/* <Script
         src={`https://www.googletagmanager.com/gtag/js?id=${GTAG}`}
         strategy="afterInteractive"
       />
@@ -17,7 +17,7 @@ const Scripts = React.memo(() => {
             
               gtag('config', '${GTAG}');
         `}
-      </Script>
+      </Script> */}
     </>
   );
 });

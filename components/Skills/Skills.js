@@ -43,14 +43,13 @@ const Skills = () => {
         <div className="flex flex-col skills-wrapper">
           <div className="flex flex-col">
             <p className="uppercase tracking-widest text-gray-light-1 seq">
-              SKILLS
+              {SKILLS.id}
             </p>
             <h1 className="text-6xl mt-2 font-medium text-gradient w-fit seq">
-              My Skills
+              {SKILLS.title}
             </h1>
             <h2 className="text-[1.1rem] font-small font-mono leading-relaxed text-gray-light-3 md:max-w-lg w-full mt-0 seq">
-              I like to take responsibility to craft aesthetic user experience
-              using modern frontend architecture.{" "}
+              {SKILLS.description}
             </h2>
           </div>
           <div className="mt-10">

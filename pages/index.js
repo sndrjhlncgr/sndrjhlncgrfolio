@@ -67,10 +67,11 @@ export default function Home() {
               </div>
               <div className="fixed top-0 left-0 h-screen w-screen -z-1"></div>
               <Hero />
-              <div></div>
+              <div className="fixed top-0 left-0 h-screen w-screen -z-1"></div>
               <Skills />
-              <div></div>
+              <div className="fixed top-0 left-0 h-screen w-screen -z-1"></div>
               <Projects isDesktop={isDesktop} clientHeight={clientHeight} />
+              <div className="fixed top-0 left-0 h-screen w-screen -z-1"></div>
               <Work clientWidth={clientWidth} />
               <Collaboration clientHeight={clientHeight} />
               <div className="pt-10 sm:pt-16 bg-gray-dark-4"></div>

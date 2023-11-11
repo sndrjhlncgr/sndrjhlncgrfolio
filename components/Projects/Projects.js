@@ -92,14 +92,13 @@ const Projects = ({ isDesktop, clientHeight }) => {
           ref={sectionTitle}
         >
           <p className="uppercase tracking-widest text-gray-light-1 seq">
-            PROJECTS
+            {PROJECTS.id}
           </p>
           <h1 className="text-6xl mt-2 font-medium text-gradient w-fit seq">
-            My Projects
+            {PROJECTS.title}
           </h1>
           <h2 className="text-[1.1rem] font-small font-mono leading-relaxed text-gray-light-3 md:max-w-lg w-full mt-0 seq">
-            Some things I&apos;ve built with love, expertise and a pinch of
-            magical ingredients.{" "}
+            {PROJECTS.description}
           </h2>
         </div>
         <div
@@ -107,7 +106,7 @@ const Projects = ({ isDesktop, clientHeight }) => {
             clientHeight > 650 ? "mt-12" : "mt-8"
           } flex project-wrapper w-fit seq`}
         >
-          {PROJECTS.map((project, index) => (
+          {PROJECTS.lists.map((project, index) => (
             <ProjectTile
               classes={
                 index === PROJECTS.length - 1 ? "" : "mr-10 xs:mr-12 sm:mr-16"

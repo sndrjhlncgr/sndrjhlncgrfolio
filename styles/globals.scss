@@ -10,7 +10,7 @@
 *::before {
   padding: 0;
   margin: 0;
-  -webkit-tap-highlight-color: rgba(112, 0, 255, 0.05);
+  -webkit-tap-highlight-color: rgba(67, 6, 147, 0.05);
 
 }
 
@@ -287,7 +287,7 @@ input[type="checkbox"] {
     transform-origin: left;
     will-change: transform;
     transform: scaleX(0);
-    @apply w-full bg-white;
+    @apply w-full bg-purple;
   }
 }
 

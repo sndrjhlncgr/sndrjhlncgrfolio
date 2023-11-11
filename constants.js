@@ -172,27 +172,7 @@ export const WORK = [
     ],
     url: "https://sandrocagara.io/",
     video: "/work/dukaan.mp4",
-  },
-  {
-    id: 1,
-    company: "National Center for Mental Health",
-    title: "Full Stack Developer",
-    location: "Mandaluyong, Philippines",
-    range: "???",
-    responsibilities: [
-      "Develop front end website architecture and features to enhance the user experience.",
-      "Worked on the company (ER, OPD and IPD) information system including login authentication and user interface implementations and etc.",
-      "Responsible for writing clean code and driving technical design.",
-      "Supervise and guide entry-level developers; responsible for reviewing their code.",
-      "Assigned to mentor some of the junior developers in the team.",
-      "Participated in interviewing and recruiting candidates.",
-      "In charge of releasing and deploying builds to development, staging and production environment",
-      "Approve merge/pull request and set up task breakdown for junior developers during the development",
-      "Ensures proper documentation and reports in all stages of the development cycle"
-    ],
-    url: "https://sandrocagara.io/",
-    video: "/work/dukaan.mp4",
-  },
+  }
 ];
 
 export const GTAG = "G-5HCTL2TJ5W";

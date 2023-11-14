@@ -176,7 +176,7 @@ export const PROJECTS = {
         title: 'Spotify Status (readme)'
       },
       gradient: ["#16e58b", "#5ef550"],
-      url: "https://shubh73-airbnb.vercel.app/",
+      url: "https://github.com/sndrjhlncgr/README-Spotify-Status",
       tech: ["python", "flask", "vercel", "spotify"],
     },
     {

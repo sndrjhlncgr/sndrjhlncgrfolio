@@ -9,6 +9,7 @@
   "dependencies": {
     "@emailjs/browser": "^3.4.0",
     "bad-words": "^3.0.4",
+    "compass-mixins": "^0.12.12",
     "gsap": "^3.8.0",
     "howler": "^2.2.3",
     "lottie-web": "^5.8.1",

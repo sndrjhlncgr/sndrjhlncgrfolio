@@ -113,17 +113,31 @@ export const SKILLS = {
     "tailwindcss",
     "vue",
     "antdesign",
+    "express"
   ],
   databases: [
     "mysql", 
     "mongodb", 
     "sql-server"
   ],
-  other: [
+  developmentTools: [
     "git", 
     "gitlab", 
+    "jira",
     "jenkins",
-    "docker"
+    "docker",
+    "xampp",
+    "visual-studio-code",
+    "postman",
+    "linux",
+  ],
+  graphicTechnologies: [
+    "adobe-photoshop",
+    "adobe-illustrator",
+    "adobe-lightroom",
+    "adobe-audition",
+    "adobe-after-effects",
+    "adobe-premiere"
   ]
 };
 
@@ -164,6 +178,17 @@ export const PROJECTS = {
       gradient: ["#16e58b", "#5ef550"],
       url: "https://shubh73-airbnb.vercel.app/",
       tech: ["python", "flask", "vercel", "spotify"],
+    },
+    {
+      name: "Stream Overlay",
+      image: "/projects/airbnb.webp",
+      blurImage: "/projects/blur/airbnb-blur.webp",
+      description: {
+        title: 'Valorant Stream Overlay'
+      },
+      gradient: ["#fd4556", "#bd3944"],
+      url: "https://www.behance.net/gallery/115842267/Valorant-Stream-Overlay",
+      tech: ["adobe-photoshop"],
     }
   ]
 }

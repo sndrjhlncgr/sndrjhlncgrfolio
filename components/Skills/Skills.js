@@ -69,7 +69,7 @@ const Skills = () => {
               ))}
             </div>
           </div>
-          <div className="mt-10">
+          <div className="mt-8">
             <h3 className="uppercase tracking-widest text-gray-light-2 font-medium text-base mb-4 seq">
               LIBRARIES AND FRAMEWORKS
             </h3>
@@ -86,8 +86,8 @@ const Skills = () => {
               ))}
             </div>
           </div>
-          <div className="flex flex-wrap mt-10">
-            <div className="mr-16 xs:mr-20 mb-6">
+          <div className="flex flex-wrap mt-8">
+            <div className="mr-16 xs:mr-20">
               <h3 className="uppercase tracking-widest text-gray-light-2 font-medium text-base mb-4 seq">
                 DATABASES
               </h3>
@@ -104,12 +104,33 @@ const Skills = () => {
                 ))}
               </div>
             </div>
+          </div>
+          <div className="flex flex-wrap mt-8">
             <div>
               <h3 className="uppercase tracking-widest text-gray-light-2 font-medium text-base mb-4 seq">
-                Other
+                DEVELOPMENT TOOLS
               </h3>
               <div className="flex flex-wrap gap-6 transform-gpu seq">
-                {SKILLS.other.map((skill) => (
+                {SKILLS.developmentTools.map((skill) => (
+                  <Image
+                    title={skill}
+                    key={skill}
+                    src={`/skills/${skill}.svg`}
+                    alt={skill}
+                    width={30}
+                    height={30}
+                  />
+                ))}
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-wrap mt-8">
+            <div>
+              <h3 className="uppercase tracking-widest text-gray-light-2 font-medium text-base mb-4 seq">
+                GRAPHIC TECHNOLOGIES
+              </h3>
+              <div className="flex flex-wrap gap-6 transform-gpu seq">
+                {SKILLS.graphicTechnologies.map((skill) => (
                   <Image
                     title={skill}
                     key={skill}

@@ -33,32 +33,24 @@ const Work = ({ clientWidth }) => {
             </h2>
           </div>
           <div>
-            <ul class={styles.timeline}>
-              <li class={styles.timelineEvent}>
-                <label class={styles.timelineEventIcon}></label>
-                <div class={styles.timelineEventCopy}>
-                  <p class={styles.timelineEventThumbnail}>
-                    April 2011 - heute
-                  </p>
-                  <h3>Geil,Danke! GmbH</h3>
-                  <h4>Geschäftsführerin eines Web-Studios</h4>
-                  <p>
-                    <strong>Schwerpunkt: Frontend-Entwicklung</strong>
-                    <br />
-                    Entwickeln von anspruchsvollen, animierten, responsive und
-                    adaptive Webseiten mit HTML5, SCSS, jQuery; für alle
-                    Browser, optimiert für Desktop, Notebook, Smartphones und
-                    Tablets (iOS, Android, Windows).
-                  </p>
-                  <p>
-                    <strong>Projektmanagement mit Scrum</strong>
-                    <br />
-                    Ständiges Verbessern des agilen Entwicklungsprozesses
-                    beispielsweise durch Grunt, Yeoman, GIT, JIRA und
-                    BrowserStack.
-                  </p>
-                </div>
-              </li>
+            <ul className={styles.timeline}>
+              {WORK.lists.map((work) => (
+                <li className={styles.timelineEvent}>
+                  <label className={styles.timelineEventIcon}></label>
+                  <div className={styles.timelineEventCopy}>
+                    <p className={styles.timelineEventThumbnail}>{work.range}</p>
+                    <h3>{work.title}</h3>
+                    <h5 className="-mt-1 text-[1rem]">{work.company}</h5>
+                    <ul class="pt-5 w-full list-disc">
+                      {work.responsibilities.map((responsibilities) => (
+                        <li className="text-[0.8rem] font-small font-mono leading-relaxed text-gray-light-3">
+                          {responsibilities}
+                          </li>
+                      ))}
+                    </ul>
+                  </div>
+                </li>
+              ))}
             </ul>
           </div>
         </div>

@@ -54,7 +54,7 @@ export const TYPED_STRINGS = [
 export const SOCIAL_LINKS = [
   {
     name: "mail",
-    url: "mailto: sandrojhulianocagara@gmail.com",
+    url: "mailto:sandrojhulianocagara@gmail.com",
   },
   {
     name: "github",
@@ -109,6 +109,8 @@ export const SKILLS = {
     "codeigniter",
     "materialui",
     "react",
+    "bootstrap5",
+    "tailwind",
     "redux",
     "jquery",
     "nextjs",

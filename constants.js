@@ -39,6 +39,10 @@ export const MENULINKS = [
     ref: "work",
   },
   {
+    name: "Services",
+    ref: "services",
+  },
+  {
     name: "Contact",
     ref: "contact",
   },
@@ -273,5 +277,19 @@ export const WORK = {
       url: "_________________",
       video: "_________________",
     },
+  ],
+};
+
+export const SERVICES = {
+  id: "services",
+  title: "Services",
+  description: "A lot of things i can provide for you.",
+  lists: [
+    {
+      id: 1,
+      title: "Example Service",
+      description: "Example Description",
+      icon: "/icon"
+    }
   ],
 };

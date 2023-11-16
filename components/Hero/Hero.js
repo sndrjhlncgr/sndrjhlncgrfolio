@@ -89,7 +89,7 @@ const Hero = () => {
           <Profiles />
         </div>
         <div className="seq pt-0">
-          <Button href={`#${MENULINKS[4].ref}`} classes="link" type="primary">
+          <Button href={`#${MENULINKS[5].ref}`} classes="link" type="primary">
             Let&apos;s Talk
           </Button>
         </div>

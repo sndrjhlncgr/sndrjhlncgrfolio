@@ -16,6 +16,7 @@ import Contact from "@/components/Contact/Contact";
 import Footer from "@/components/Footer/Footer";
 import Scripts from "@/components/Scripts/Scripts";
 import { displayFancyLogs } from "utils";
+import Services from './../components/Services/Services';
 
 export default function Home() {
   gsap.registerPlugin(ScrollTrigger);
@@ -66,13 +67,15 @@ export default function Home() {
                 *
               </div>
               <div className="fixed top-0 left-0 h-screen w-screen -z-1"></div>
-              <Hero />
+              <Hero clientWidth={clientWidth} />
               <div className="fixed top-0 left-0 h-screen w-screen -z-1"></div>
-              <Skills />
+              <Skills clientWidth={clientWidth}/>
               <div className="fixed top-0 left-0 h-screen w-screen -z-1"></div>
               <Projects isDesktop={isDesktop} clientHeight={clientHeight} />
               <div className="fixed top-0 left-0 h-screen w-screen -z-1"></div>
               <Work clientWidth={clientWidth} />
+              <div className="fixed top-0 left-0 h-screen w-screen -z-1"></div>
+              <Services/>
               <Collaboration clientHeight={clientHeight} />
               <div className="pt-10 sm:pt-16 bg-gray-dark-4"></div>
               <Contact />

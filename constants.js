@@ -159,7 +159,7 @@ export const PROJECTS = {
         title: "Hospital Emergency Room Link Program",
       },
       gradient: ["#ffba08", "#faa307"],
-      url: "https://shubh73-default.vercel.app/",
+      url: "https://test.app/",
       tech: ["codeigniter", "jquery", "sql-server", "bootstrap5", "docker"],
     },
     {
@@ -170,7 +170,7 @@ export const PROJECTS = {
         title: "Love, Skin (Aesthetic clinic corp)",
       },
       gradient: ["#e29578", "#ffddd2"],
-      url: "https://shubh73-default.vercel.app/",
+      url: "https://test.app/",
       tech: [
         "laravel",
         "react",
@@ -190,6 +190,17 @@ export const PROJECTS = {
       gradient: ["#16e58b", "#5ef550"],
       url: "https://github.com/sndrjhlncgr/README-Spotify-Status",
       tech: ["python", "flask", "vercel", "spotify"],
+    },
+    {
+      name: "Laravel Authentication Package",
+      image: "/projects/no-image.png",
+      blurImage: "/projects/blur/no-image-blur.png",
+      description: {
+        title: "Laravel Native Multi Authentication",
+      },
+      gradient: ["#669bbc", "#003049"],
+      url: "https://github.com/sndrjhlncgr/Laravel-Native-Multi-Authentication-5.6",
+      tech: ["laravel", "php"],
     },
     {
       name: "Stream Overlay",
@@ -287,9 +298,21 @@ export const SERVICES = {
   lists: [
     {
       id: 1,
-      title: "Example Service",
-      description: "Example Description",
-      icon: "/icon"
-    }
+      title: "Example Service 1",
+      description: "Example Description 1",
+      icon: "/icon",
+    }, 
+    {
+      id: 2,
+      title: "Example Service 2",
+      description: "Example Description 2",
+      icon: "/icon",
+    },
+    {
+      id: 3,
+      title: "Example Service 3 ",
+      description: "Example Description 3",
+      icon: "/icon",
+    },
   ],
 };

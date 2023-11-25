@@ -63,8 +63,8 @@ const Skills = () => {
                   key={skill}
                   src={`/skills/${skill}.svg`}
                   alt={skill}
-                  width={30}
-                  height={30}
+                  width={45}
+                  height={45}
                 />
               ))}
             </div>
@@ -80,8 +80,8 @@ const Skills = () => {
                   key={skill}
                   src={`/skills/${skill}.svg`}
                   alt={skill}
-                  width={30}
-                  height={30}
+                  width={45}
+                  height={45}
                 />
               ))}
             </div>
@@ -98,8 +98,8 @@ const Skills = () => {
                     key={skill}
                     src={`/skills/${skill}.svg`}
                     alt={skill}
-                    width={30}
-                    height={30}
+                    width={45}
+                    height={45}
                   />
                 ))}
               </div>
@@ -117,8 +117,8 @@ const Skills = () => {
                     key={skill}
                     src={`/skills/${skill}.svg`}
                     alt={skill}
-                    width={30}
-                    height={30}
+                    width={45}
+                    height={45}
                   />
                 ))}
               </div>
@@ -136,8 +136,8 @@ const Skills = () => {
                     key={skill}
                     src={`/skills/${skill}.svg`}
                     alt={skill}
-                    width={30}
-                    height={30}
+                    width={45}
+                    height={45}
                   />
                 ))}
               </div>

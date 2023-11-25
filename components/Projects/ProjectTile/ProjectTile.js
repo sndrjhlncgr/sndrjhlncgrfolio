@@ -34,8 +34,8 @@ const ProjectTile = ({ project, classes, isDesktop }) => {
         maxWidth: isDesktop ? "calc(100vw - 2rem)" : "calc(100vw - 4rem)",
         flex: "1 0 auto",
         WebkitMaskImage: "-webkit-radial-gradient(white, black)",
-        border: 'solid',
-        borderWidth: '4px'
+        // border: 'solid',
+        // borderWidth: '4px'
       }}
     >
       <div

@@ -2,8 +2,9 @@ import { useEffect, useRef } from "react";
 import { MENULINKS, SERVICES } from "../../constants";
 import { gsap, Linear } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+import styles from "./Services.module.scss";
 
-const Services = () => {
+const Services = ({isDesktop}) => {
   const targetSection = useRef(null);
 
   useEffect(() => {
@@ -52,7 +53,9 @@ const Services = () => {
               </h2>
             </div>
             <div>
-        
+              {SERVICES.lists.map((service, index) => (
+                  <p>{service.title}</p>
+              ))}
             </div>
           </div>
         </div>

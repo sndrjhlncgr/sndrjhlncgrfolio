@@ -55,28 +55,19 @@ const Collaboration = ({ clientHeight }) => {
           clientHeight > 650 ? "py-36" : "py-48"
         } section-container flex flex-col`}
       >
-        <p className="opacity-40 text-6xl sm:text-7xl font-semibold whitespace-nowrap ui-left transform-gpu">
-          {Array(5)
-            .fill(
-              " Software Engineering Problem Solving Software Architecture "
-            )
-            .reduce((str, el) => str.concat(el), "")}{" "}
+        <p className="opacity-40 text-4xl sm:text-5xl font-semibold whitespace-nowrap ui-left transform-gpu">
+          {Array(5).fill( " Software Engineering Problem Solving Web Designing " ).reduce((str, el) => str.concat(el), "")}{" "}
         </p>
-
         <h1
           ref={quoteRef}
-          className="mt-6 md:mt-8 font-medium text-4xl md:text-5xl text-center"
+          className="mt-6 md:mt-8 font-small text-3xl md:text-4xl text-center"
         >
           Interested in{" "}
           <span className="text-strong font-semibold">Collaboration</span>?
         </h1>
 
-        <p className="mt-6 md:mt-8 opacity-40 text-6xl sm:text-7xl font-semibold whitespace-nowrap ui-right transform-gpu">
-          {Array(5)
-            .fill(
-              " Agile Development Frontend Development React Native Development "
-            )
-            .reduce((str, el) => str.concat(el), "")}{" "}
+        <p className="mt-6 md:mt-8 opacity-40 text-4xl sm:text-5xl font-semibold whitespace-nowrap ui-right transform-gpu">
+          {Array(5).fill( " Agile Development Frontend Development React Development " ) .reduce((str, el) => str.concat(el), "")}{" "}
         </p>
       </div>
       <style jsx global>{`

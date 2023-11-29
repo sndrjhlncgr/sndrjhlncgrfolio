@@ -300,7 +300,7 @@ export const SERVICES = {
       id: 1,
       title: "Web Design",
       description: "Custom made web design templates",
-      icon: "/icon",
+      icon: "/icons/test.svg",
       gradient: ["#669bbc", "#003049"],
     }, 
     {
@@ -327,7 +327,7 @@ export const SERVICES = {
     {
       id: 5,
       title: "Computer Hardware Upgrade",
-      description: "Upgrade the components of personal desktop or laptopss",
+      description: "Upgrade the components of personal computer",
       icon: "/icon",
       gradient: ["#669bbc", "#003049"],
     },

@@ -57,17 +57,17 @@ const Services = ({isDesktop}) => {
               {SERVICES.lists.map((service, index) => (
                     <div className={styles.cards}>
                       <div className={styles.cardsInner}>
-                        <div  className={styles.card}>
-                          <Image
-                            title={index}
+                        <div className={styles.card} >
+                          {/* <Image
+                            title={service.title}
                             key={index}
-                            src={`/skills/react.svg`}
-                            alt={index}
-                            width={100}
-                            height={100}
-                          />
-                          <p className="text-[1.1rem] font-small leading-relaxed text-center">{service.title}</p>
-                          <small>{service.description}</small>
+                            src={`${service.icon}`}
+                            alt={service.title}
+                            width={90}
+                            height={90}
+                          /> */}
+                          <p className="text-[1.4rem] font-medium  font-sans leading-relaxed text-center">{service.title}</p>
+                          <small className="text-[0.7rem] ] font-small font-mono leading-relaxed text-gray-light-3 text-center -mb-20">{service.description}</small>
                         </div>
                       </div>
                       <div className={styles.cardsInner, styles.overlay}>

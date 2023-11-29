@@ -63,7 +63,7 @@ const Work = () => {
                       </p>
                       <h3 className="font-semibold">{work.title}</h3>
                       <h5 className="-mt-3 text-[1rem]">{work.company}</h5>
-                      <ul class="pt-5 w-full list-disc">
+                      <ul className="pt-5 w-full list-disc">
                         {work.responsibilities.map((responsibilities) => (
                           <li className="text-[0.65rem] font-small font-mono leading-relaxed text-gray-light-3">
                             {responsibilities}
@@ -127,7 +127,7 @@ export default Work;
 //                     <p className={styles.timelineEventThumbnail}>{work.range}</p>
 //                     <h3 className="font-semibold">{work.title}</h3>
 //                     <h5 className="-mt-3 text-[1rem]">{work.company}</h5>
-//                     <ul class="pt-5 w-full list-disc">
+//                     <ul className="pt-5 w-full list-disc">
 //                       {work.responsibilities.map((responsibilities) => (
 //                         <li className="text-[0.65rem] font-small font-mono leading-relaxed text-gray-light-3">
 //                           {responsibilities}

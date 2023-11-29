@@ -3,6 +3,7 @@ import { MENULINKS, SERVICES } from "../../constants";
 import { gsap, Linear } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import styles from "./Services.module.scss";
+import Image from "next/image";
 
 const Services = ({isDesktop}) => {
   const targetSection = useRef(null);
@@ -16,14 +17,14 @@ const Services = ({isDesktop}) => {
     );
 
     ScrollTrigger.create({
-      trigger: targetSection.current.querySelector(".work-wrapper"),
+      trigger: targetSection.current.querySelector(".service-wrapper"),
       start: "100px bottom",
       end: `center center`,
       animation: revealTl,
       scrub: 0,
     });
   }, [targetSection]);
-
+  
   return (
     <section
       className="w-full relative select-none mt-10 mb-20"
@@ -41,7 +42,7 @@ const Services = ({isDesktop}) => {
         />
         <div className="flex flex-col">
           <div className="flex flex-col">
-            <div className="flex flex-col work-wrapper">
+            <div className="flex flex-col service-wrapper mb-10">
               <p className="uppercase tracking-widest text-gray-light-1 seq">
                 {SERVICES.id}
               </p>
@@ -52,10 +53,28 @@ const Services = ({isDesktop}) => {
                 {SERVICES.description}
               </h2>
             </div>
-            <div>
+            <div className="grid lg:grid-cols-3 md:grid-cols-2 xs:grid-cols-1 gap-6">
               {SERVICES.lists.map((service, index) => (
-                  <p>{service.title}</p>
-              ))}
+                    <div className={styles.cards}>
+                      <div className={styles.cardsInner}>
+                        <div  className={styles.card}>
+                          <Image
+                            title={index}
+                            key={index}
+                            src={`/skills/react.svg`}
+                            alt={index}
+                            width={100}
+                            height={100}
+                          />
+                          <p className="text-[1.1rem] font-small leading-relaxed text-center">{service.title}</p>
+                          <small>{service.description}</small>
+                        </div>
+                      </div>
+                      <div className={styles.cardsInner, styles.overlay}>
+                        
+                      </div>
+                    </div>
+                ))}
             </div>
           </div>
         </div>

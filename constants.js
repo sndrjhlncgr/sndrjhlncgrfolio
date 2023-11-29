@@ -1,8 +1,7 @@
 export const METADATA = {
   author: "Sandro Cagara",
   title: "Sandro Cagara | Full Stack Developer",
-  description:
-    "Sandro Cagara is a Senior Full Stack Developer from philippines, interested in crafting beautiful and functional applications.",
+  description: "Sandro Cagara is a Senior Full Stack Developer from philippines, interested in crafting beautiful and functional applications.",
   siteUrl: "https://www.sandrocagara.me/",
   keywords: [
     "Sandro Cagara",
@@ -19,6 +18,7 @@ export const METADATA = {
 export const INTRO = {
   firstname: "Sandro",
   lastname: "Cagara",
+  about: "some about me description here..."
 };
 
 export const MENULINKS = [
@@ -298,21 +298,45 @@ export const SERVICES = {
   lists: [
     {
       id: 1,
-      title: "Example Service 1",
-      description: "Example Description 1",
+      title: "Web Design",
+      description: "Custom made web design templates",
       icon: "/icon",
+      gradient: ["#669bbc", "#003049"],
     }, 
     {
       id: 2,
-      title: "Example Service 2",
-      description: "Example Description 2",
+      title: "Web Applications",
+      description: "Web systems with functionalities",
       icon: "/icon",
+      gradient: ["#669bbc", "#003049"],
     },
     {
       id: 3,
-      title: "Example Service 3 ",
-      description: "Example Description 3",
+      title: "Layout Editing",
+      description: "Tarpaulin Designs, icons, storyboards",
       icon: "/icon",
+      gradient: ["#669bbc", "#003049"],
+    },
+    {
+      id: 4,
+      title: "Troubleshooting",
+      description: "Fixing software problems in computers",
+      icon: "/icon",
+      gradient: ["#669bbc", "#003049"],
+    },
+    {
+      id: 5,
+      title: "Computer Hardware Upgrade",
+      description: "Upgrade the components of personal desktop or laptopss",
+      icon: "/icon",
+      gradient: ["#669bbc", "#003049"],
+    },
+    {
+      id: 6,
+      title: "Additional Services",
+      description: "Integrations, Custom Web Systems",
+      icon: "/icon",
+      gradient: ["#669bbc", "#003049"],
     },
   ],
 };

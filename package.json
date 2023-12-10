@@ -19,6 +19,7 @@
     "react-dom": "^17.0.2",
     "react-hot-toast": "^2.2.0",
     "react-reveal": "^1.2.2",
+    "react-tooltip": "^5.25.0",
     "sass": "^1.43.4",
     "typed.js": "^2.0.12",
     "url-loader": "^4.1.1",

@@ -4,6 +4,7 @@ import Image from "next/image";
 import { MENULINKS, SKILLS } from "../../constants";
 import { gsap, Linear } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+import { Tooltip } from 'react-tooltip';
 
 const Skills = () => {
   const targetSection = useRef(null);
@@ -40,6 +41,7 @@ const Skills = () => {
           height={700}
           width={320}
         />
+        <Tooltip id="my-skills" />
         <div className="flex flex-col skills-wrapper">
           <div className="flex flex-col">
             <p className="uppercase tracking-widest text-gray-light-1 seq">
@@ -59,6 +61,8 @@ const Skills = () => {
             <div className="flex flex-wrap gap-6 transform-gpu seq">
               {SKILLS.languagesAndTools.map((skill) => (
                 <Image
+                  data-tooltip-id="my-skills" 
+                  data-tooltip-html={`<b>${skill}</b>`}
                   title={skill}
                   key={skill}
                   src={`/skills/${skill}.svg`}
@@ -76,6 +80,8 @@ const Skills = () => {
             <div className="flex flex-wrap gap-6 transform-gpu seq">
               {SKILLS.librariesAndFrameworks.map((skill) => (
                 <Image
+                  data-tooltip-id="my-skills" 
+                  data-tooltip-html={`<b>${skill}</b>`}
                   title={skill}
                   key={skill}
                   src={`/skills/${skill}.svg`}
@@ -94,6 +100,8 @@ const Skills = () => {
               <div className="flex flex-wrap gap-6 transform-gpu seq">
                 {SKILLS.databases.map((skill) => (
                   <Image
+                    data-tooltip-id="my-skills" 
+                    data-tooltip-html={`<b>${skill}</b>`}
                     title={skill}
                     key={skill}
                     src={`/skills/${skill}.svg`}
@@ -113,6 +121,8 @@ const Skills = () => {
               <div className="flex flex-wrap gap-6 transform-gpu seq">
                 {SKILLS.developmentTools.map((skill) => (
                   <Image
+                    data-tooltip-id="my-skills" 
+                    data-tooltip-html={`<b>${skill}</b>`}
                     title={skill}
                     key={skill}
                     src={`/skills/${skill}.svg`}
@@ -132,6 +142,8 @@ const Skills = () => {
               <div className="flex flex-wrap gap-6 transform-gpu seq">
                 {SKILLS.graphicTechnologies.map((skill) => (
                   <Image
+                    data-tooltip-id="my-skills" 
+                    data-tooltip-html={`<b>${skill}</b>`}
                     title={skill}
                     key={skill}
                     src={`/skills/${skill}.svg`}

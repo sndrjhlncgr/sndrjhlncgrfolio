@@ -62,7 +62,7 @@ const Skills = () => {
               {SKILLS.languagesAndTools.map((skill) => (
                 <Image
                   data-tooltip-id="my-skills" 
-                  data-tooltip-html={`<b>${skill}</b>`}
+                  data-tooltip-html={`<b style="text-transform: capitalize;">${skill.replace('-', ' ')}</b>`}
                   title={skill}
                   key={skill}
                   src={`/skills/${skill}.svg`}
@@ -81,7 +81,7 @@ const Skills = () => {
               {SKILLS.librariesAndFrameworks.map((skill) => (
                 <Image
                   data-tooltip-id="my-skills" 
-                  data-tooltip-html={`<b>${skill}</b>`}
+                  data-tooltip-html={`<b style="text-transform: capitalize;">${skill.replace('-', ' ')}</b>`}
                   title={skill}
                   key={skill}
                   src={`/skills/${skill}.svg`}
@@ -101,7 +101,7 @@ const Skills = () => {
                 {SKILLS.databases.map((skill) => (
                   <Image
                     data-tooltip-id="my-skills" 
-                    data-tooltip-html={`<b>${skill}</b>`}
+                    data-tooltip-html={`<b style="text-transform: capitalize;">${skill.replace('-', ' ')}</b>`}
                     title={skill}
                     key={skill}
                     src={`/skills/${skill}.svg`}
@@ -122,7 +122,7 @@ const Skills = () => {
                 {SKILLS.developmentTools.map((skill) => (
                   <Image
                     data-tooltip-id="my-skills" 
-                    data-tooltip-html={`<b>${skill}</b>`}
+                    data-tooltip-html={`<b style="text-transform: capitalize;">${skill.replace('-', ' ')}</b>`}
                     title={skill}
                     key={skill}
                     src={`/skills/${skill}.svg`}
@@ -143,7 +143,7 @@ const Skills = () => {
                 {SKILLS.graphicTechnologies.map((skill) => (
                   <Image
                     data-tooltip-id="my-skills" 
-                    data-tooltip-html={`<b>${skill}</b>`}
+                    data-tooltip-html={`<b style="text-transform: capitalize;">${skill.replace('-', ' ')}</b>`}
                     title={skill}
                     key={skill}
                     src={`/skills/${skill}.svg`}

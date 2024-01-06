@@ -10,7 +10,7 @@ const Header = ({ children }) => {
         <div className="flex justify-between section-container">
           <a href="#home" className="link">
             <Image
-              src="/logo.svg"
+              src="/icon-256x256.png"
               alt="Logo - Sandro Cagara"
               width={25}
               height={25}

@@ -342,3 +342,9 @@ export const SERVICES = {
     },
   ],
 };
+
+export const CONTACTS = {
+  id: "contacts",
+  title: "Contacts",
+  description: "Get in touch.",
+};

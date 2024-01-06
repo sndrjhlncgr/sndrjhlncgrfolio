@@ -22,11 +22,11 @@ const SoundBar = () => {
       className="soundBars link absolute top-3 right-14 flex items-center justify-center"
       onClick={togglePlayPause}
     >
+      {/* <span></span>
       <span></span>
       <span></span>
       <span></span>
-      <span></span>
-      <audio ref={soundBarEl} src={audio} loop preload="auto" />
+      <audio ref={soundBarEl} src={audio} loop preload="auto" /> */}
     </div>
   );
 };

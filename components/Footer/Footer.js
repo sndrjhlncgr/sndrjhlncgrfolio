@@ -6,7 +6,7 @@ import { Howl } from "howler";
 import Button from "../Button/Button";
 import FooterBg from "./FooterBg/FooterBg";
 import Profiles from "../Profiles/Profiles";
-import { MENULINKS } from "../../constants";
+import { MENULINKS, METADATA} from "../../constants";
 
 const Footer = () => {
   const [playbackRate, setPlaybackRate] = useState(0.75);
@@ -39,12 +39,12 @@ const Footer = () => {
       className="w-full relative select-none bg-cover"
       ref={targetSection}
     >
-      <FooterBg />
+      {/* <FooterBg /> */}
       <Fade bottom distance={"4rem"}>
-        <div className="w-full h-full pt-32">
+        <div className="w-full h-full pt-20">
           <div className="section-container flex flex-col h-full justify-end z-10 items-center py-12">
             <h1 className="font-medium text-3xl md:text-4xl text-center seq">
-              Feel free to connect on social media.
+              Feel free to connect
             </h1>
             <div className="text-center seq">
               <Profiles />
@@ -59,13 +59,11 @@ const Footer = () => {
               </Button>
             </div>
             <p className="text-center text-white text-sm sm:text-base font-medium tracking-wide mt-8">
-              Developed with{" "}
-              <button onClick={handleClick} className="link heart-btn">
-                <span role="img" aria-label="heart" className="animate-pulse">
-                  ❤️
-                </span>
-              </button>{" "}
-              by <span className="text-white">Sandro Cagara</span>
+             © Copyright
+              <span className="text-white ml-1">
+                {METADATA.author}
+              </span>
+              . All Rights Reserved
             </p>
           </div>
         </div>

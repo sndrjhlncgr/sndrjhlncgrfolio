@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import Filter from "bad-words";
-import { MENULINKS } from "../../constants";
+import { MENULINKS, CONTACTS } from "../../constants";
 import toast, { Toaster } from "react-hot-toast";
 import Fade from "react-reveal/Fade";
 import mail from "./mailer";
@@ -244,14 +244,14 @@ const Contact = () => {
         <div className="flex flex-col work-wrapper">
           <div className="flex flex-col">
             <p className="uppercase tracking-widest text-gray-light-1 seq">
-              CONTACT
+            {CONTACTS.id}
             </p>
             <h1 className="text-6xl mt-2 font-medium text-gradient w-fit seq">
-              Contact
+            {CONTACTS.title}
             </h1>
           </div>
-          <h2 className="text-[1.65rem] font-medium md:max-w-lg w-full mt-2 seq">
-            Get In Touch.{" "}
+          <h2 className="text-[1.1rem] font-small font-mono leading-relaxed text-gray-light-3 md:max-w-lg w-full mt-0 seq">
+            {CONTACTS.description}
           </h2>
         </div>
 

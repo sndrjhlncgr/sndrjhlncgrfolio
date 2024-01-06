@@ -66,8 +66,8 @@ const Services = ({isDesktop}) => {
                             width={90}
                             height={90}
                           /> */}
-                          <p className="text-[1.4rem] font-medium  font-sans leading-relaxed text-center">{service.title}</p>
-                          <small className="text-[0.7rem] ] font-small font-mono leading-relaxed text-gray-light-3 text-center -mb-20">{service.description}</small>
+                          <p className="lg:text-[1.4rem] sm:text-[2rem] lg:pt-6 font-medium font-sans leading-relaxed text-center">{service.title}</p>
+                          <small className="lg:text-[0.7rem] sm:text-[1rem] font-small font-mono leading-relaxed text-gray-light-3 text-center -mt-10">{service.description}</small>
                         </div>
                       </div>
                       <div className={styles.cardsInner, styles.overlay}>

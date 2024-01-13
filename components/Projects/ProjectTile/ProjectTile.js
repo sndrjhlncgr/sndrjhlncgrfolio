@@ -3,7 +3,7 @@ import Image from "next/image";
 import VanillaTilt from "vanilla-tilt";
 import styles from "./ProjectTile.module.scss";
 
-const ProjectTile = ({ project, classes, isDesktop }) => {
+const ProjectTile = ({ project, classes, isDesktop, shadow }) => {
   const { name, image, blurImage, description, gradient, url, tech } = project;
   const projectCard = useRef(null);
   let additionalClasses = "";
@@ -33,7 +33,7 @@ const ProjectTile = ({ project, classes, isDesktop }) => {
       style={{
         maxWidth: isDesktop ? "calc(100vw - 2rem)" : "calc(100vw - 4rem)",
         flex: "1 0 auto",
-        WebkitMaskImage: "-webkit-radial-gradient(white, black)",
+        // WebkitMaskImage: "-webkit-radial-gradient(white, black)",
         // border: 'solid',
         // borderWidth: '4px'
       }}
@@ -54,6 +54,9 @@ const ProjectTile = ({ project, classes, isDesktop }) => {
           // blurDataURL={blurImage}
           src={image}
           alt={name}
+          style={{
+            boxShadow: shadow ? '': 'none'
+          }}
           layout="fill"
           className={`${styles.projectImage} z-0`}
         />

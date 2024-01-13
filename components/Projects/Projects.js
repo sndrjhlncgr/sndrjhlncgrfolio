@@ -112,6 +112,7 @@ const Projects = ({ isDesktop, clientHeight }) => {
                 index === PROJECTS.length - 1 ? "" : "mr-10 xs:mr-12 sm:mr-16"
               }
               project={project}
+              shadow={project.shadow}
               key={project.name}
             />
           ))}

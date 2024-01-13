@@ -156,6 +156,7 @@ export const PROJECTS = {
       description: {
         title: "Love, Skin (Aesthetic clinic corp)",
       },
+      shadow: true,
       gradient: ["#e29578", "#ffddd2"],
       url: "https://test.app/",
       tech: ["laravel", "react", "tanstack-query", "materialui", "redux", "mysql"]
@@ -167,6 +168,7 @@ export const PROJECTS = {
       description: {
         title: "Hospital Emergency Room Link Program",
       },
+      shadow: true,
       gradient: ["#ffba08", "#faa307"],
       url: "https://test.app/",
       tech: ["codeigniter", "jquery", "sql-server", "bootstrap5", "docker"],
@@ -178,6 +180,7 @@ export const PROJECTS = {
       description: {
         title: "Hospital Out Patient EMR",
       },
+      shadow: true,
       gradient: ["#a1c181", "#619b8a"],
       url: "https://test.app/",
       tech: ["codeigniter", "jquery", "sql-server", "bootstrap5", "docker"],
@@ -189,6 +192,7 @@ export const PROJECTS = {
       description: {
         title: "Spotify Status (readme)",
       },
+      shadow: false,
       gradient: ["#16e58b", "#5ef550"],
       url: "https://github.com/sndrjhlncgr/README-Spotify-Status/blob/master/README.md",
       tech: ["python", "flask", "vercel", "spotify"],
@@ -200,20 +204,10 @@ export const PROJECTS = {
       description: {
         title: "Laravel Native Multi Authentication",
       },
+      shadow: true,
       gradient: ["#669bbc", "#003049"],
       url: "https://github.com/sndrjhlncgr/Laravel-Native-Multi-Authentication-5.6",
       tech: ["laravel", "php"],
-    },
-    {
-      name: "Stream Overlay",
-      image: "/projects/no-image.png",
-      blurImage: "/projects/blur/no-image-blur.png",
-      description: {
-        title: "Valorant Stream Overlay",
-      },
-      gradient: ["#fd4556", "#bd3944"],
-      url: "https://www.behance.net/gallery/115842267/Valorant-Stream-Overlay",
-      tech: ["adobe-photoshop", "python", "flask"],
     },
   ],
 };

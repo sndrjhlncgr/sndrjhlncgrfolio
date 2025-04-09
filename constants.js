@@ -66,7 +66,7 @@ export const SOCIAL_LINKS = [
   },
   {
     name: "medium",
-    url: "https://medium.com/sandrocagara",
+    url: "https://medium.com/@sandrocagara",
   },
   {
     name: "stackoverflow",

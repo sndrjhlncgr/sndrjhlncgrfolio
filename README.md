@@ -2,7 +2,7 @@
 
 In the project directory, you can run:
 
-#### `npm install`
+#### `npm install --force`
 #### `npm run dev`
 
 Runs the app in the development mode.\
